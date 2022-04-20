@@ -1,0 +1,44 @@
+canvas {
+    background: linear-gradient(to right top, rgb(7, 5, 19), white);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+.newTerrainButton {
+    background-color: brown;
+    position: absolute;
+    left: 45%;
+    top: 80%;
+    width: 150px;
+    height: 30px;
+    outline: none;
+    border: none;
+    z-index: 1;
+    border-radius: 5px;
+    color: white;
+    transition: 0.5s;
+    box-shadow: 0px 0px 5px black;
+}
+.newTerrainButton:hover {
+    box-shadow: 0px 0px 10px black;
+    cursor: pointer;
+}
+.info {
+    display: grid;
+    row-gap: 15px;
+    background-color: white;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 5px;
+    padding: 20px;
+    color: brown;
+    font-size: 20px;
+    z-index: 2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    left: 1%;
+    top: 68%;
+}
+.info img {
+    margin-left: 10px;
+}
